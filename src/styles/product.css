@@ -1,0 +1,46 @@
+#inner {
+    height: 125px;
+    width: 120px;
+    border: 1px white solid;
+    margin-top: 10px;
+    margin-right: 15px;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: left;
+    display: inline-block;
+    overflow: hidden;
+}
+
+#inner:hover {
+    border: 1px white solid;
+}
+
+#product {
+    float: left;
+    height: 120px;
+    width: 100%;
+    background-color: white;
+    display: inline-block;
+    margin-right: 0px;
+    margin-left: 0px;
+    border: 1px white solid;
+}
+
+#sp {
+    font-size: 2em;
+    display: inherit;
+    float: right;
+}
+
+#product:hover > #sp {
+    color: red;
+    visibility: visible;
+}
+
+.active {
+    visibility: visible;
+}
+
+.inactive {
+    visibility: hidden;
+}

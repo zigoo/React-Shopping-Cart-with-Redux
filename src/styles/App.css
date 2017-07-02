@@ -1,0 +1,45 @@
+.clearfix {
+    margin-top: 50px;
+    border: none;
+}
+
+.grid__prodList {
+    display: block;
+    border: none;
+    margin-left: 0px;
+    margin-right: 0px;
+    max-width: 450px;
+    border: none;
+}
+
+.grid__prodList img {
+    width: 82px;
+    height: 116px;
+}
+
+.grid__ImgBig {
+    min-width: 50px;
+    height: 100%;
+    border: none;
+    background-color: white;
+    border: none;
+}
+
+.grid__ImgBig img {
+    display: block;
+    margin: 0 auto;
+    height: 500px;
+    border: 1px solid white;
+}
+
+.grid__desc {
+    height: 100%;
+    min-height: 200px;
+    border: none;
+    background-color: white;
+    border: none;
+}
+
+#grid__d {
+    min-height: 300px;
+}
