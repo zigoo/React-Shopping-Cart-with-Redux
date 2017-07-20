@@ -29,7 +29,7 @@ class Cart extends React.Component {
                 </li>
               ))}
               <br />
-              <p>Lacznie: {total}</p>
+              <p>Lacznie: {total} zł</p>
             </ul>
             </div>
           }

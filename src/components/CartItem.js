@@ -7,7 +7,7 @@ class CartItem extends React.Component {
     return (
       <div className="cart_item">
         <span className="cart_item__name">{name} <br /></span>
-        <span className="cart_item__price">Cena: {price} <br /></span>
+        <span className="cart_item__price">Cena: {price} zł <br /></span>
       </div>
     );
   }
